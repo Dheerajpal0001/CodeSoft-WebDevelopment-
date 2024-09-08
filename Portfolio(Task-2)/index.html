@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dheeraj's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav>
+        <div class="logo">Portfolio</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="menu-toggle">&#9776;</div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="section home">
+        <div class="home-content">
+            <h1>Hello, I'm Dheeraj</h1>
+            <h2>I am a <span class="typing"></span></h2>
+            <p>I'm a passionate web developer focused on delivering beautiful user experiences.</p>
+            <div class="buttons">
+                <a href="Resume1.pdf" class="btn" target="_blank">Resume</a>
+                <a href="#contact" class="btn contact-btn">Contact Me</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <div class="skill-list">
+                <button class="skill" data-skill="HTML">HTML</button>
+                <button class="skill" data-skill="CSS">CSS</button>
+                <button class="skill" data-skill="JavaScript">JavaScript</button>
+                <button class="skill" data-skill="React.js">React.js</button>
+                <button class="skill" data-skill="Node.js">Node.js</button>
+                <button class="skill" data-skill="Express.js">Express.js</button>
+                <button class="skill" data-skill="MongoDB">MongoDB</button>
+            </div>
+            <div class="skill-image">
+                <img id="skill-image" src="images/html.png" alt="HTML">
+            </div>
+        </div>
+    </section>
+
+<!-- Projects Section -->
+<section id="projects" class="section">
+    <h2>Projects</h2>
+    <div class="projects-container">
+        <!-- Project Card 1 -->
+        <div class="project-card">
+            <img src="images/project1.jpg" alt="Project 1 Image" class="project-image">
+            <div class="project-content">
+                <h3>Project 1</h3>
+                <p>This is a description of Project 1, which includes a brief overview of the project's features and technologies used.</p>
+                <a href="https://github.com/yourusername/project1" class="btn" target="_blank">View on GitHub</a>
+            </div>
+        </div>
+        <!-- Project Card 2 -->
+        <div class="project-card">
+            <img src="images/project2.jpg" alt="Project 2 Image" class="project-image">
+            <div class="project-content">
+                <h3>Project 2</h3>
+                <p>This is a description of Project 2, detailing the core functionalities and tools used to build the project.</p>
+                <a href="https://github.com/yourusername/project2" class="btn" target="_blank">View on GitHub</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <h2>About Me</h2>
+        <p>I'm a web developer passionate about creating modern web applications and improving user experience.</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <h2>Contact Me</h2>
+        <form action="#">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>Thanks for Viewing My Portfolio</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
